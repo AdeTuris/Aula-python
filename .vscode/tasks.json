@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Publicar no GitHub",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File publicar.ps1",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
