@@ -125,8 +125,8 @@ def exercicio_pares_1_a_20():
             break
 
 
-def exercicio_tabuada_transcricao():
-    print("\n=== EXERCICIO 8: TABUADA (TRANSCRICAO) ===")
+def exercicio_tabuada_aula05():
+    print("\n=== EXERCICIO 8: TABUADA AULA 05 ===")
 
     while True:
         tabuada = int(input("Digite um numero para a tabuada: "))
@@ -206,7 +206,7 @@ def main():
         print("5 - Exercicio de fatorial")
         print("6 - Exibir numeros de 1 a 10")
         print("7 - Mostrar numeros pares de 1 a 20")
-        print("8 - Tabuada (exercicio da transcricao)")
+        print("8 - Tabuada aula 05")
         print("9 - Pedir numeros ate digitar zero")
         print("10 - Pedir 5 notas e calcular media")
         print("11 - Sequencia condicional dinamica (FizzBuzz)")
@@ -229,7 +229,7 @@ def main():
         elif opcao == "7":
             exercicio_pares_1_a_20()
         elif opcao == "8":
-            exercicio_tabuada_transcricao()
+            exercicio_tabuada_aula05()
         elif opcao == "9":
             exercicio_digitar_ate_zero()
         elif opcao == "10":
